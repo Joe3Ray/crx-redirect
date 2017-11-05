@@ -9,9 +9,11 @@ import SwitchEnable from '../containers/SwitchEnable';
 import ChangePanel from '../containers/ChangePanel';
 
 const App = ({ type, id, isList }) => {
+  /*
   const switcher = (
     <SwitchEnable />
   );
+  */
 
   const listPanel = (
     <div className="main-panel">
@@ -34,7 +36,7 @@ const App = ({ type, id, isList }) => {
   );
 
   return (
-    <Card title="Crx Redirect" bordered={false} extra={switcher}>
+    <Card title="Crx Redirect" bordered={false}/* extra={switcher}*/>
       {isList ? listPanel : addPanel}
     </Card>
   );

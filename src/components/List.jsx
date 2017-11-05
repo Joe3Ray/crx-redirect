@@ -6,11 +6,13 @@ const List = ({
   list, onEnableClick, onDeleteClick, onModifyClick,
 }) => {
   const columns = [
+    /*
     {
       title: '禁用/启用',
       dataIndex: 'status',
       className: 'item',
     },
+    */
     {
       title: '替换前',
       dataIndex: 'before',

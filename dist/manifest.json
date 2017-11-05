@@ -13,5 +13,8 @@
     "webRequest",
     "webRequestBlocking",
     "*://*/*"
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }

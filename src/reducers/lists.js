@@ -34,6 +34,9 @@ const lists = (state = [], action) => {
         return item;
       });
     }
+    case 'GET_INFO': {
+      return action.info.lists;
+    }
     default:
       return state;
   }
